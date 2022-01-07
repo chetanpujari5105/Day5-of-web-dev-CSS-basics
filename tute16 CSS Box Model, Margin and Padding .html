@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Box Model, Margin and Padding </title>
+    <style>
+
+        /* some defalut values for css "*" is universal if user changes default value down below then it will be overwritten */
+        *{
+            box-sizing: border-box;
+            padding: 0px;
+            margin: 0px;
+        }
+
+        body{
+            background-color: #ffffc1;
+        }
+
+        .contaner{
+            background-color: rgb(217, 255, 242);
+            border: 10px solid rgb(255, 201, 201);
+            border-radius: 15px;
+
+            /* padding: 10px;
+            padding-left: 10px;
+            padding-top: 20px;
+            padding-right: 25px;
+            padding-bottom: 30px; */
+            padding: 10px 30px 25px 40px ; /*padding: top right bottom left*/
+            padding: 34px 52px; /*x(top/bottom) and y(left/right)*/
+
+            /* all padding syntex is same for margin
+            margin: 34px; /*margin: top right bottom left*/
+            /* margin-left: 10px;
+            margin-top: 20px;
+            margin-right: 25px;
+            margin-bottom: 30px; 
+            margin: 10px 30px 25px 40px ; padding: top right bottom left */
+            margin: 34px 300px; /*x(top/bottom) and y(left/right)*/
+
+            width: 555px;
+            
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="contaner">
+        <h3>CSS Box Model, Margin and Padding </h3>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam blanditiis iusto magnam, sunt consequatur totam placeat eaque voluptatem accusantium aut reprehenderit ratione modi.</p>
+    </div>
+
+    <div class="contaner">
+        <h3>CSS Box Model, Margin and Padding </h3>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam blanditiis iusto magnam, sunt consequatur totam placeat eaque voluptatem accusantium aut reprehenderit ratione modi.</p>
+    </div>
+
+    <div class="contaner">
+        <h3>CSS Box Model, Margin and Padding </h3>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam blanditiis iusto magnam, sunt consequatur totam placeat eaque voluptatem accusantium aut reprehenderit ratione modi.</p>
+    </div>
+</body>
+</html>
